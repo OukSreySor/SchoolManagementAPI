@@ -31,4 +31,5 @@ public class User {
     private User updateBy;
 
     private String status; 
+    private String role;
 }

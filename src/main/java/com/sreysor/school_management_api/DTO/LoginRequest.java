@@ -1,11 +1,10 @@
 package com.sreysor.school_management_api.DTO;
+
 import lombok.Data;
 
 @Data
-public class UserDTO {
-    private Long id;
+public class LoginRequest {
     private String username;
     private String password;
-    private String status;
-    private String role;
+    
 }
